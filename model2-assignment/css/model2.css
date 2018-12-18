@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	font-family: Sans-serif;
+	font-family: 'B612 Mono', monospace;
 }
 
 section{
@@ -30,8 +30,7 @@ section{
 
 
 .text {
-	position: relative;
-	top:20px;
+	padding-top:20px;
 	padding:10px;
 
 }
@@ -39,8 +38,10 @@ section{
 #Chicken {
 	text-align: center;
 	position: absolute;
+	margin:0px;
+	padding:0px;
 	right:-1px;
-	top: -21px;
+	top: -1px;
 	font-size: 125%;
 	font-weight: bold;
 	border: 1px solid black;
@@ -51,8 +52,10 @@ section{
 #Beef {
 	text-align: center;
 	position: absolute;
+	margin:0px;
+	padding:0px;
 	right:-1px;
-	top: -21px;
+	top: -1px;
 	color: white;
 	font-size: 125%;
 	font-weight: bold;
@@ -64,8 +67,10 @@ section{
 #Sushi {
 	text-align: center;
 	position: absolute;
+	margin:0px;
+	padding:0px;
 	right:-1px;
-	top: -21px;
+	top: -1px;
 	font-size: 125%;
 	font-weight: bold;
 	border: 1px solid black;
